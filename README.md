@@ -17,7 +17,7 @@
 
 http://127.0.0.1:5000/create
 
-Копирует папку default-bot в папку <port>-bot (port изначально задан в файле port.txt)
+Копирует папку default-bot в папку port-bot (port изначально задан в файле port.txt)
 
 выполняет docker-compose build
 
@@ -25,7 +25,7 @@ http://127.0.0.1:5000/create
 
 #### 2:
 
-http://127.0.0.1:5000/start/<port>
+http://127.0.0.1:5000/start/port
 
 выполняет команду docker-compose up -d в папке бота по присланному порту
 
@@ -33,7 +33,7 @@ http://127.0.0.1:5000/start/<port>
 
 #### 3:
 
-http://127.0.0.1:5000/down/<port>
+http://127.0.0.1:5000/down/port
 
 выполняет команду docker-compose down в папке бота по присланному порту
 
